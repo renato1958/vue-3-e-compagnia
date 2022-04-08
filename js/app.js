@@ -1,3 +1,5 @@
+import MyCounter from '../views/MyCounter.js';
+
 const App = {
   name: 'App',
   data() {
