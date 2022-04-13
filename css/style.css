@@ -1,4 +1,5 @@
 /* Stili globali */
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +13,9 @@ body {
   margin: 0;
 }
 
+
 /* Stili su contenitore generale */
+
 .main-container {
   width: 100%;
   max-width: 60rem;
@@ -21,4 +24,14 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: center;
+}
+
+/* message container */
+
+.message-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
 }
